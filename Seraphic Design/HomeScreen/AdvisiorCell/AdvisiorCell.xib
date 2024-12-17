@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AdvisiorCell" customModule="Seraphic_Design" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="185" height="385"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="185" height="385"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qlw-L9-z5g">
+                        <rect key="frame" x="0.0" y="0.0" width="185" height="385"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="advisorImage1" translatesAutoresizingMaskIntoConstraints="NO" id="b6d-cl-iyX">
+                                <rect key="frame" x="0.0" y="0.0" width="185" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="bWV-Vl-K9G"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdO-HO-OJa">
+                                <rect key="frame" x="8" y="8" width="16" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="16" id="Zya-as-vLO"/>
+                                    <constraint firstAttribute="height" constant="16" id="pql-ks-TPN"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="PlayButton"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5zj-Np-o2Q">
+                                <rect key="frame" x="125" y="8" width="52" height="20"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ln0-ul-dlp">
+                                        <rect key="frame" x="11.666666666666659" y="4" width="28.666666666666671" height="12"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Online">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="10" name="UrbanistRoman-Bold"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1764705882" green="0.74117647060000003" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="8c3-9U-0M2"/>
+                                    <constraint firstItem="ln0-ul-dlp" firstAttribute="centerY" secondItem="5zj-Np-o2Q" secondAttribute="centerY" id="t3W-BM-rre"/>
+                                    <constraint firstAttribute="width" constant="52" id="wqA-0q-9z5"/>
+                                    <constraint firstItem="ln0-ul-dlp" firstAttribute="centerX" secondItem="5zj-Np-o2Q" secondAttribute="centerX" id="xwb-Ln-jAi"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1oW-Xq-Zxu">
+                                <rect key="frame" x="8" y="178" width="61" height="19"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Isabella">
+                                        <attributes>
+                                            <color key="NSColor" red="0.18431372549019609" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="NOCTADO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSC-y0-Zgz">
+                                <rect key="frame" x="8" y="201" width="119" height="14"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Palm reading,Tarotista">
+                                        <attributes>
+                                            <color key="NSColor" red="0.4823529411764706" green="0.40784313725490196" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name="UrbanistRoman-Medium"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AfL-Ms-ARL">
+                                <rect key="frame" x="8" y="219" width="89.666666666666671" height="14"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Experience: 7 Yrs">
+                                        <attributes>
+                                            <color key="NSColor" red="0.4823529411764706" green="0.40784313725490196" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name="UrbanistRoman-Medium"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDx-eP-YPs">
+                                <rect key="frame" x="8" y="236.99999999999997" width="165" height="50.666666666666657"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Horoscope service provides daily, weekly, or monthly...">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1843137255" green="0.1843137255" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Urbanist-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pfi-EC-rdK">
+                                <rect key="frame" x="8" y="295.66666666666669" width="81" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="0Se-dq-KhC"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="ChatImages"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0r-BX-hRz">
+                                <rect key="frame" x="7.9999999999999982" y="321.66666666666669" width="31.333333333333329" height="17"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="From">
+                                        <attributes>
+                                            <color key="NSColor" red="0.4823529411764706" green="0.40784313725490196" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="UrbanistRoman-Medium"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cWN-KJ-761">
+                                <rect key="frame" x="8" y="342.66666666666669" width="51" height="24"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="€4.22">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1843137255" green="0.1843137255" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="UrbanistRoman-ExtraBold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6oe-d5-Oag">
+                                <rect key="frame" x="62.999999999999993" y="346.33333333333331" width="28.666666666666664" height="17"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="6.99 ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.4823529411764706" green="0.40784313725490196" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="UrbanistRoman-Medium"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mOy-fa-uRp">
+                                <rect key="frame" x="12" y="134" width="121" height="24"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8U-EO-7vE">
+                                        <rect key="frame" x="8" y="3.6666666666666572" width="19" height="17"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="4.5">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.18431372549019609" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="14" name="UrbanistRoman-SemiBold"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="78e-cR-q7G">
+                                        <rect key="frame" x="35" y="6" width="12" height="12"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="12" id="ap5-Nj-mNB"/>
+                                            <constraint firstAttribute="height" constant="12" id="zid-sS-Vn4"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BlO-X4-Xxb">
+                                        <rect key="frame" x="55" y="5.6666666666666572" width="58" height="13"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="(44 Ratings)">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.4823529411764706" green="0.40784313725490196" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="11" name="UrbanistRoman-Medium"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.95686274509803915" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="A7u-2s-OPh"/>
+                                    <constraint firstItem="78e-cR-q7G" firstAttribute="centerY" secondItem="mOy-fa-uRp" secondAttribute="centerY" id="OMH-VI-VMQ"/>
+                                    <constraint firstItem="78e-cR-q7G" firstAttribute="leading" secondItem="h8U-EO-7vE" secondAttribute="trailing" constant="8" id="RyR-Wz-yBs"/>
+                                    <constraint firstItem="BlO-X4-Xxb" firstAttribute="leading" secondItem="78e-cR-q7G" secondAttribute="trailing" constant="8" id="f0X-ir-Ijw"/>
+                                    <constraint firstAttribute="width" constant="121" id="gEm-R2-PnU"/>
+                                    <constraint firstItem="BlO-X4-Xxb" firstAttribute="centerY" secondItem="mOy-fa-uRp" secondAttribute="centerY" id="gq5-iE-wL5"/>
+                                    <constraint firstItem="h8U-EO-7vE" firstAttribute="centerY" secondItem="mOy-fa-uRp" secondAttribute="centerY" id="iKo-PE-8V8"/>
+                                    <constraint firstItem="h8U-EO-7vE" firstAttribute="leading" secondItem="mOy-fa-uRp" secondAttribute="leading" constant="8" id="mS0-7r-si5"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.9137254901960784" green="0.49411764705882355" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AM6-oy-6ck">
+                                <rect key="frame" x="93.666666666666671" y="346.33333333333331" width="28" height="17"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="/min">
+                                        <attributes>
+                                            <color key="NSColor" red="0.4823529411764706" green="0.40784313725490196" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="UrbanistRoman-Medium"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5zj-Np-o2Q" secondAttribute="trailing" constant="8" id="0Sj-Dg-zF9"/>
+                            <constraint firstItem="AfL-Ms-ARL" firstAttribute="top" secondItem="aSC-y0-Zgz" secondAttribute="bottom" constant="4" id="1e8-3k-Tqj"/>
+                            <constraint firstItem="M0r-BX-hRz" firstAttribute="top" secondItem="Pfi-EC-rdK" secondAttribute="bottom" constant="8" id="5Yk-eD-10i"/>
+                            <constraint firstItem="mOy-fa-uRp" firstAttribute="bottom" secondItem="b6d-cl-iyX" secondAttribute="bottom" constant="-12" id="6pQ-1S-ri9"/>
+                            <constraint firstItem="6oe-d5-Oag" firstAttribute="centerY" secondItem="cWN-KJ-761" secondAttribute="centerY" id="89o-pw-nr2"/>
+                            <constraint firstItem="mdO-HO-OJa" firstAttribute="top" secondItem="Qlw-L9-z5g" secondAttribute="top" constant="8" id="9ED-ui-qKt"/>
+                            <constraint firstItem="cWN-KJ-761" firstAttribute="leading" secondItem="M0r-BX-hRz" secondAttribute="leading" id="9eb-Nj-hJl"/>
+                            <constraint firstItem="AM6-oy-6ck" firstAttribute="leading" secondItem="6oe-d5-Oag" secondAttribute="trailing" constant="2" id="AP7-bC-jdr"/>
+                            <constraint firstAttribute="trailing" secondItem="mDx-eP-YPs" secondAttribute="trailing" constant="12" id="ToP-xB-6rb"/>
+                            <constraint firstItem="5zj-Np-o2Q" firstAttribute="top" secondItem="Qlw-L9-z5g" secondAttribute="top" constant="8" id="VDn-xh-Bd5"/>
+                            <constraint firstItem="1oW-Xq-Zxu" firstAttribute="leading" secondItem="Qlw-L9-z5g" secondAttribute="leading" constant="8" id="VRH-M4-kPp"/>
+                            <constraint firstItem="cWN-KJ-761" firstAttribute="top" secondItem="M0r-BX-hRz" secondAttribute="bottom" constant="4" id="Ves-O0-6mR"/>
+                            <constraint firstAttribute="trailing" secondItem="b6d-cl-iyX" secondAttribute="trailing" id="XA2-F7-7hl"/>
+                            <constraint firstItem="mOy-fa-uRp" firstAttribute="leading" secondItem="Qlw-L9-z5g" secondAttribute="leading" constant="12" id="XMM-RQ-2xf"/>
+                            <constraint firstItem="aSC-y0-Zgz" firstAttribute="leading" secondItem="1oW-Xq-Zxu" secondAttribute="leading" id="Zwx-gT-GKU"/>
+                            <constraint firstItem="AM6-oy-6ck" firstAttribute="centerY" secondItem="6oe-d5-Oag" secondAttribute="centerY" id="ac3-XD-uQt"/>
+                            <constraint firstItem="mdO-HO-OJa" firstAttribute="leading" secondItem="Qlw-L9-z5g" secondAttribute="leading" constant="8" id="buQ-iF-Tj6"/>
+                            <constraint firstItem="6oe-d5-Oag" firstAttribute="leading" secondItem="cWN-KJ-761" secondAttribute="trailing" constant="4" id="dTu-hL-No7"/>
+                            <constraint firstItem="M0r-BX-hRz" firstAttribute="leading" secondItem="Pfi-EC-rdK" secondAttribute="leading" id="evE-ue-5vb"/>
+                            <constraint firstItem="mDx-eP-YPs" firstAttribute="leading" secondItem="AfL-Ms-ARL" secondAttribute="leading" id="g6f-31-TJe"/>
+                            <constraint firstItem="b6d-cl-iyX" firstAttribute="top" secondItem="Qlw-L9-z5g" secondAttribute="top" id="hH4-Wj-fZh"/>
+                            <constraint firstItem="Pfi-EC-rdK" firstAttribute="leading" secondItem="mDx-eP-YPs" secondAttribute="leading" id="hTi-bd-qJ4"/>
+                            <constraint firstItem="1oW-Xq-Zxu" firstAttribute="top" secondItem="b6d-cl-iyX" secondAttribute="bottom" constant="8" id="hoL-pV-AZc"/>
+                            <constraint firstItem="AfL-Ms-ARL" firstAttribute="leading" secondItem="aSC-y0-Zgz" secondAttribute="leading" id="i3V-X1-XF2"/>
+                            <constraint firstItem="aSC-y0-Zgz" firstAttribute="top" secondItem="1oW-Xq-Zxu" secondAttribute="bottom" constant="4" id="m1a-og-lG8"/>
+                            <constraint firstItem="Pfi-EC-rdK" firstAttribute="top" secondItem="mDx-eP-YPs" secondAttribute="bottom" constant="8" id="syL-1f-Ekj"/>
+                            <constraint firstItem="b6d-cl-iyX" firstAttribute="leading" secondItem="Qlw-L9-z5g" secondAttribute="leading" id="wO7-zz-9aC"/>
+                            <constraint firstItem="mDx-eP-YPs" firstAttribute="top" secondItem="AfL-Ms-ARL" secondAttribute="bottom" constant="4" id="z0E-Pw-VCg"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="18"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Qlw-L9-z5g" secondAttribute="bottom" id="CbD-Dj-nSC"/>
+                <constraint firstItem="Qlw-L9-z5g" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="eBU-9O-YIi"/>
+                <constraint firstItem="Qlw-L9-z5g" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="tAX-4k-KRE"/>
+                <constraint firstAttribute="trailing" secondItem="Qlw-L9-z5g" secondAttribute="trailing" id="tmz-lw-0OK"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="18"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                    <real key="value" value="1"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                    <color key="value" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="shaddowOpacity">
+                    <real key="value" value="0.5"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="shaddowColor">
+                    <color key="value" red="0.011764705882352941" green="0.035294117647058823" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                    <size key="value" width="0.0" height="1"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                    <real key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="advisorImage" destination="b6d-cl-iyX" id="Pcd-Lk-RTc"/>
+                <outlet property="advisorname" destination="1oW-Xq-Zxu" id="Nah-yb-T69"/>
+                <outlet property="prePriceLabel" destination="6oe-d5-Oag" id="k0R-jF-E4H"/>
+                <outlet property="statusLabel" destination="ln0-ul-dlp" id="HR0-wz-pYi"/>
+                <outlet property="statusView" destination="5zj-Np-o2Q" id="7FZ-FI-cNo"/>
+            </connections>
+            <point key="canvasLocation" x="-46" y="20"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ChatImages" width="81" height="18"/>
+        <image name="PlayButton" width="16" height="18"/>
+        <image name="advisorImage1" width="185" height="171"/>
+        <image name="star" width="12" height="12"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
