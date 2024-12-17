@@ -21,9 +21,7 @@
 
 Version - 1.0 Snapshot :: 
 
-<img src="https://github.com/user-attachments/assets/43b068a2-fe49-4562-9c07-2ed6df3d390c" alt="Home Screen" width="300" height="600"/>
-<img src="https://github.com/user-attachments/assets/fd50f9a9-4819-4060-a5e3-3fd4683af58f" alt="Home Screen" width="300" height="600"/>
-<img src="https://github.com/user-attachments/assets/8d2ad5f2-93b2-4a60-868c-432929d1100c" alt="Home Screen" width="300" height="600"/>
-<img src="https://github.com/user-attachments/assets/d3571cbf-b546-4dc1-bab5-4babb503aaf4" alt="Home Screen" width="300" height="600"/>
-<img src="https://github.com/user-attachments/assets/9e78f294-47c2-410b-84b1-7c58627497fa" alt="Home Screen" width="300" height="600"/>
-<img src="https://github.com/user-attachments/assets/d4d3d3ff-6d08-40fb-af02-9253e3587ae6" alt="Home Screen" width="300" height="600"/>
+<img src="https://github.com/user-attachments/assets/2f34106a-489f-4377-a01e-c92d2d17739e" alt="Home Screen" width="300" height="600"/>
+<img src="https://github.com/user-attachments/assets/277513a2-8261-47ac-9a36-9c0f1a112778" alt="Home Screen" width="300" height="600"/>
+<img src="https://github.com/user-attachments/assets/f57e5bb3-86ed-4d3b-a519-3b1f2c53b2c3" alt="Home Screen" width="300" height="600"/>
+
