@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8020CDA2D0AAB7D001B20AB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8020CD92D0AAB7D001B20AB /* HomeViewController.swift */; };
+		F8020CDC2D0AABB6001B20AB /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8020CDB2D0AABB6001B20AB /* MessageViewController.swift */; };
+		F8020CDE2D0AADEF001B20AB /* UiView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8020CDD2D0AADEF001B20AB /* UiView+Extension.swift */; };
+		F8020CE22D0AB2A0001B20AB /* Urbanist-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8020CE02D0AB2A0001B20AB /* Urbanist-Italic-VariableFont_wght.ttf */; };
+		F8020CE32D0AB2A0001B20AB /* Urbanist-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8020CE12D0AB2A0001B20AB /* Urbanist-VariableFont_wght.ttf */; };
+		F8020CE52D0AB49D001B20AB /* Nautilus.otf in Resources */ = {isa = PBXBuildFile; fileRef = F8020CE42D0AB49D001B20AB /* Nautilus.otf */; };
+		F8020CE72D0AB8FC001B20AB /* NOCTADO.otf in Resources */ = {isa = PBXBuildFile; fileRef = F8020CE62D0AB8FC001B20AB /* NOCTADO.otf */; };
+		F8133E032D0AFDD800935346 /* MessageStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8133E022D0AFDD800935346 /* MessageStruct.swift */; };
+		F8133E052D0B0F6300935346 /* AdvisorStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8133E042D0B0F6300935346 /* AdvisorStruct.swift */; };
+		F816E6FB2D0AF2C5006F1FDD /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816E6FA2D0AF2C5006F1FDD /* KeyboardHandler.swift */; };
+		F816E7022D0AF711006F1FDD /* SendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816E7002D0AF711006F1FDD /* SendCell.swift */; };
+		F816E7032D0AF711006F1FDD /* SendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F816E7012D0AF711006F1FDD /* SendCell.xib */; };
+		F831635B2D0AA4FA00DF2942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F831635A2D0AA4FA00DF2942 /* AppDelegate.swift */; };
+		F831635D2D0AA4FA00DF2942 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F831635C2D0AA4FA00DF2942 /* SceneDelegate.swift */; };
+		F831635F2D0AA4FA00DF2942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F831635E2D0AA4FA00DF2942 /* ViewController.swift */; };
+		F83163622D0AA4FA00DF2942 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F83163612D0AA4FA00DF2942 /* Base */; };
+		F83163652D0AA4FA00DF2942 /* Seraphic_Design.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F83163632D0AA4FA00DF2942 /* Seraphic_Design.xcdatamodeld */; };
+		F83163672D0AA4FB00DF2942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83163662D0AA4FB00DF2942 /* Assets.xcassets */; };
+		F831636A2D0AA4FB00DF2942 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F83163692D0AA4FB00DF2942 /* Base */; };
+		F83163752D0AA4FB00DF2942 /* Seraphic_DesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83163742D0AA4FB00DF2942 /* Seraphic_DesignTests.swift */; };
+		F831637F2D0AA4FB00DF2942 /* Seraphic_DesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F831637E2D0AA4FB00DF2942 /* Seraphic_DesignUITests.swift */; };
+		F83163812D0AA4FB00DF2942 /* Seraphic_DesignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83163802D0AA4FB00DF2942 /* Seraphic_DesignUITestsLaunchTests.swift */; };
+		F83163902D0AA82200DF2942 /* HomeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F831638F2D0AA82200DF2942 /* HomeTabBar.swift */; };
+		F877CFEB2D0ACFA600056B91 /* AdvisiorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F877CFEA2D0ACFA600056B91 /* AdvisiorCell.xib */; };
+		F877CFEC2D0ACFA600056B91 /* AdvisiorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F877CFE92D0ACFA600056B91 /* AdvisiorCell.swift */; };
+		F88046CF2D0AFB5C00B8EE33 /* ReceiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88046CD2D0AFB5C00B8EE33 /* ReceiveCell.swift */; };
+		F88046D02D0AFB5C00B8EE33 /* ReceiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F88046CE2D0AFB5C00B8EE33 /* ReceiveCell.xib */; };
+		F8D1AEE72D0ADEBE00651F93 /* FavouriteAdvisorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8D1AEE62D0ADEBE00651F93 /* FavouriteAdvisorCell.xib */; };
+		F8D1AEE82D0ADEBE00651F93 /* FavouriteAdvisorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1AEE52D0ADEBE00651F93 /* FavouriteAdvisorCell.swift */; };
+		F8D1AEEC2D0AE55B00651F93 /* OnlineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8D1AEEB2D0AE55B00651F93 /* OnlineCell.xib */; };
+		F8D1AEED2D0AE55B00651F93 /* OnlineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1AEEA2D0AE55B00651F93 /* OnlineCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F83163712D0AA4FB00DF2942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F831634F2D0AA4FA00DF2942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83163562D0AA4FA00DF2942;
+			remoteInfo = "Seraphic Design";
+		};
+		F831637B2D0AA4FB00DF2942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F831634F2D0AA4FA00DF2942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83163562D0AA4FA00DF2942;
+			remoteInfo = "Seraphic Design";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8020CD92D0AAB7D001B20AB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F8020CDB2D0AABB6001B20AB /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		F8020CDD2D0AADEF001B20AB /* UiView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiView+Extension.swift"; sourceTree = "<group>"; };
+		F8020CE02D0AB2A0001B20AB /* Urbanist-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		F8020CE12D0AB2A0001B20AB /* Urbanist-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		F8020CE42D0AB49D001B20AB /* Nautilus.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nautilus.otf; sourceTree = "<group>"; };
+		F8020CE62D0AB8FC001B20AB /* NOCTADO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NOCTADO.otf; sourceTree = "<group>"; };
+		F8133E022D0AFDD800935346 /* MessageStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageStruct.swift; sourceTree = "<group>"; };
+		F8133E042D0B0F6300935346 /* AdvisorStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisorStruct.swift; sourceTree = "<group>"; };
+		F816E6FA2D0AF2C5006F1FDD /* KeyboardHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
+		F816E7002D0AF711006F1FDD /* SendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendCell.swift; sourceTree = "<group>"; };
+		F816E7012D0AF711006F1FDD /* SendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendCell.xib; sourceTree = "<group>"; };
+		F83163572D0AA4FA00DF2942 /* Seraphic Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seraphic Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F831635A2D0AA4FA00DF2942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F831635C2D0AA4FA00DF2942 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F831635E2D0AA4FA00DF2942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F83163612D0AA4FA00DF2942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F83163642D0AA4FA00DF2942 /* Seraphic_Design.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Seraphic_Design.xcdatamodel; sourceTree = "<group>"; };
+		F83163662D0AA4FB00DF2942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F83163692D0AA4FB00DF2942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F831636B2D0AA4FB00DF2942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F83163702D0AA4FB00DF2942 /* Seraphic DesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seraphic DesignTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83163742D0AA4FB00DF2942 /* Seraphic_DesignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seraphic_DesignTests.swift; sourceTree = "<group>"; };
+		F831637A2D0AA4FB00DF2942 /* Seraphic DesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seraphic DesignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F831637E2D0AA4FB00DF2942 /* Seraphic_DesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seraphic_DesignUITests.swift; sourceTree = "<group>"; };
+		F83163802D0AA4FB00DF2942 /* Seraphic_DesignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seraphic_DesignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F831638F2D0AA82200DF2942 /* HomeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBar.swift; sourceTree = "<group>"; };
+		F877CFE92D0ACFA600056B91 /* AdvisiorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisiorCell.swift; sourceTree = "<group>"; };
+		F877CFEA2D0ACFA600056B91 /* AdvisiorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvisiorCell.xib; sourceTree = "<group>"; };
+		F88046CD2D0AFB5C00B8EE33 /* ReceiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveCell.swift; sourceTree = "<group>"; };
+		F88046CE2D0AFB5C00B8EE33 /* ReceiveCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiveCell.xib; sourceTree = "<group>"; };
+		F8D1AEE52D0ADEBE00651F93 /* FavouriteAdvisorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAdvisorCell.swift; sourceTree = "<group>"; };
+		F8D1AEE62D0ADEBE00651F93 /* FavouriteAdvisorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouriteAdvisorCell.xib; sourceTree = "<group>"; };
+		F8D1AEEA2D0AE55B00651F93 /* OnlineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineCell.swift; sourceTree = "<group>"; };
+		F8D1AEEB2D0AE55B00651F93 /* OnlineCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnlineCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F83163542D0AA4FA00DF2942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F831636D2D0AA4FB00DF2942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83163772D0AA4FB00DF2942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8020CDF2D0AB28F001B20AB /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F8020CE02D0AB2A0001B20AB /* Urbanist-Italic-VariableFont_wght.ttf */,
+				F8020CE42D0AB49D001B20AB /* Nautilus.otf */,
+				F8020CE62D0AB8FC001B20AB /* NOCTADO.otf */,
+				F8020CE12D0AB2A0001B20AB /* Urbanist-VariableFont_wght.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		F816E6FC2D0AF6A3006F1FDD /* KeyboardHandler */ = {
+			isa = PBXGroup;
+			children = (
+				F816E6FA2D0AF2C5006F1FDD /* KeyboardHandler.swift */,
+			);
+			path = KeyboardHandler;
+			sourceTree = "<group>";
+		};
+		F816E6FD2D0AF6BC006F1FDD /* MessageScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F816E6FF2D0AF6FA006F1FDD /* ReceiveCell */,
+				F816E6FE2D0AF6F3006F1FDD /* SendCell */,
+				F8020CDB2D0AABB6001B20AB /* MessageViewController.swift */,
+				F8133E022D0AFDD800935346 /* MessageStruct.swift */,
+			);
+			path = MessageScreen;
+			sourceTree = "<group>";
+		};
+		F816E6FE2D0AF6F3006F1FDD /* SendCell */ = {
+			isa = PBXGroup;
+			children = (
+				F816E7002D0AF711006F1FDD /* SendCell.swift */,
+				F816E7012D0AF711006F1FDD /* SendCell.xib */,
+			);
+			path = SendCell;
+			sourceTree = "<group>";
+		};
+		F816E6FF2D0AF6FA006F1FDD /* ReceiveCell */ = {
+			isa = PBXGroup;
+			children = (
+				F88046CD2D0AFB5C00B8EE33 /* ReceiveCell.swift */,
+				F88046CE2D0AFB5C00B8EE33 /* ReceiveCell.xib */,
+			);
+			path = ReceiveCell;
+			sourceTree = "<group>";
+		};
+		F831634E2D0AA4FA00DF2942 = {
+			isa = PBXGroup;
+			children = (
+				F83163592D0AA4FA00DF2942 /* Seraphic Design */,
+				F83163732D0AA4FB00DF2942 /* Seraphic DesignTests */,
+				F831637D2D0AA4FB00DF2942 /* Seraphic DesignUITests */,
+				F83163582D0AA4FA00DF2942 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F83163582D0AA4FA00DF2942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F83163572D0AA4FA00DF2942 /* Seraphic Design.app */,
+				F83163702D0AA4FB00DF2942 /* Seraphic DesignTests.xctest */,
+				F831637A2D0AA4FB00DF2942 /* Seraphic DesignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F83163592D0AA4FA00DF2942 /* Seraphic Design */ = {
+			isa = PBXGroup;
+			children = (
+				F816E6FC2D0AF6A3006F1FDD /* KeyboardHandler */,
+				F8020CDF2D0AB28F001B20AB /* Font */,
+				F816E6FD2D0AF6BC006F1FDD /* MessageScreen */,
+				F831638D2D0AA7F000DF2942 /* HomeScreen */,
+				F831635A2D0AA4FA00DF2942 /* AppDelegate.swift */,
+				F831635C2D0AA4FA00DF2942 /* SceneDelegate.swift */,
+				F831635E2D0AA4FA00DF2942 /* ViewController.swift */,
+				F83163602D0AA4FA00DF2942 /* Main.storyboard */,
+				F83163662D0AA4FB00DF2942 /* Assets.xcassets */,
+				F83163682D0AA4FB00DF2942 /* LaunchScreen.storyboard */,
+				F831636B2D0AA4FB00DF2942 /* Info.plist */,
+				F83163632D0AA4FA00DF2942 /* Seraphic_Design.xcdatamodeld */,
+				F8020CDD2D0AADEF001B20AB /* UiView+Extension.swift */,
+			);
+			path = "Seraphic Design";
+			sourceTree = "<group>";
+		};
+		F83163732D0AA4FB00DF2942 /* Seraphic DesignTests */ = {
+			isa = PBXGroup;
+			children = (
+				F83163742D0AA4FB00DF2942 /* Seraphic_DesignTests.swift */,
+			);
+			path = "Seraphic DesignTests";
+			sourceTree = "<group>";
+		};
+		F831637D2D0AA4FB00DF2942 /* Seraphic DesignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F831637E2D0AA4FB00DF2942 /* Seraphic_DesignUITests.swift */,
+				F83163802D0AA4FB00DF2942 /* Seraphic_DesignUITestsLaunchTests.swift */,
+			);
+			path = "Seraphic DesignUITests";
+			sourceTree = "<group>";
+		};
+		F831638D2D0AA7F000DF2942 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F8D1AEE92D0AE54500651F93 /* OnlineCell */,
+				F8D1AEE42D0ADEA600651F93 /* FavouriteAdvisorCell */,
+				F877CFE82D0ACF8800056B91 /* AdvisiorCell */,
+				F831638E2D0AA7F600DF2942 /* TabBar */,
+				F8020CD92D0AAB7D001B20AB /* HomeViewController.swift */,
+				F8133E042D0B0F6300935346 /* AdvisorStruct.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		F831638E2D0AA7F600DF2942 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F831638F2D0AA82200DF2942 /* HomeTabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		F877CFE82D0ACF8800056B91 /* AdvisiorCell */ = {
+			isa = PBXGroup;
+			children = (
+				F877CFE92D0ACFA600056B91 /* AdvisiorCell.swift */,
+				F877CFEA2D0ACFA600056B91 /* AdvisiorCell.xib */,
+			);
+			path = AdvisiorCell;
+			sourceTree = "<group>";
+		};
+		F8D1AEE42D0ADEA600651F93 /* FavouriteAdvisorCell */ = {
+			isa = PBXGroup;
+			children = (
+				F8D1AEE52D0ADEBE00651F93 /* FavouriteAdvisorCell.swift */,
+				F8D1AEE62D0ADEBE00651F93 /* FavouriteAdvisorCell.xib */,
+			);
+			path = FavouriteAdvisorCell;
+			sourceTree = "<group>";
+		};
+		F8D1AEE92D0AE54500651F93 /* OnlineCell */ = {
+			isa = PBXGroup;
+			children = (
+				F8D1AEEA2D0AE55B00651F93 /* OnlineCell.swift */,
+				F8D1AEEB2D0AE55B00651F93 /* OnlineCell.xib */,
+			);
+			path = OnlineCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F83163562D0AA4FA00DF2942 /* Seraphic Design */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83163842D0AA4FB00DF2942 /* Build configuration list for PBXNativeTarget "Seraphic Design" */;
+			buildPhases = (
+				F83163532D0AA4FA00DF2942 /* Sources */,
+				F83163542D0AA4FA00DF2942 /* Frameworks */,
+				F83163552D0AA4FA00DF2942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Seraphic Design";
+			productName = "Seraphic Design";
+			productReference = F83163572D0AA4FA00DF2942 /* Seraphic Design.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F831636F2D0AA4FB00DF2942 /* Seraphic DesignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83163872D0AA4FB00DF2942 /* Build configuration list for PBXNativeTarget "Seraphic DesignTests" */;
+			buildPhases = (
+				F831636C2D0AA4FB00DF2942 /* Sources */,
+				F831636D2D0AA4FB00DF2942 /* Frameworks */,
+				F831636E2D0AA4FB00DF2942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F83163722D0AA4FB00DF2942 /* PBXTargetDependency */,
+			);
+			name = "Seraphic DesignTests";
+			productName = "Seraphic DesignTests";
+			productReference = F83163702D0AA4FB00DF2942 /* Seraphic DesignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F83163792D0AA4FB00DF2942 /* Seraphic DesignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F831638A2D0AA4FB00DF2942 /* Build configuration list for PBXNativeTarget "Seraphic DesignUITests" */;
+			buildPhases = (
+				F83163762D0AA4FB00DF2942 /* Sources */,
+				F83163772D0AA4FB00DF2942 /* Frameworks */,
+				F83163782D0AA4FB00DF2942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F831637C2D0AA4FB00DF2942 /* PBXTargetDependency */,
+			);
+			name = "Seraphic DesignUITests";
+			productName = "Seraphic DesignUITests";
+			productReference = F831637A2D0AA4FB00DF2942 /* Seraphic DesignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F831634F2D0AA4FA00DF2942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F83163562D0AA4FA00DF2942 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F831636F2D0AA4FB00DF2942 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F83163562D0AA4FA00DF2942;
+					};
+					F83163792D0AA4FB00DF2942 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F83163562D0AA4FA00DF2942;
+					};
+				};
+			};
+			buildConfigurationList = F83163522D0AA4FA00DF2942 /* Build configuration list for PBXProject "Seraphic Design" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F831634E2D0AA4FA00DF2942;
+			productRefGroup = F83163582D0AA4FA00DF2942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F83163562D0AA4FA00DF2942 /* Seraphic Design */,
+				F831636F2D0AA4FB00DF2942 /* Seraphic DesignTests */,
+				F83163792D0AA4FB00DF2942 /* Seraphic DesignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F83163552D0AA4FA00DF2942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D1AEE72D0ADEBE00651F93 /* FavouriteAdvisorCell.xib in Resources */,
+				F8020CE52D0AB49D001B20AB /* Nautilus.otf in Resources */,
+				F83163672D0AA4FB00DF2942 /* Assets.xcassets in Resources */,
+				F877CFEB2D0ACFA600056B91 /* AdvisiorCell.xib in Resources */,
+				F816E7032D0AF711006F1FDD /* SendCell.xib in Resources */,
+				F8020CE72D0AB8FC001B20AB /* NOCTADO.otf in Resources */,
+				F8020CE32D0AB2A0001B20AB /* Urbanist-VariableFont_wght.ttf in Resources */,
+				F88046D02D0AFB5C00B8EE33 /* ReceiveCell.xib in Resources */,
+				F8D1AEEC2D0AE55B00651F93 /* OnlineCell.xib in Resources */,
+				F831636A2D0AA4FB00DF2942 /* Base in Resources */,
+				F83163622D0AA4FA00DF2942 /* Base in Resources */,
+				F8020CE22D0AB2A0001B20AB /* Urbanist-Italic-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F831636E2D0AA4FB00DF2942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83163782D0AA4FB00DF2942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F83163532D0AA4FA00DF2942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83163652D0AA4FA00DF2942 /* Seraphic_Design.xcdatamodeld in Sources */,
+				F831635F2D0AA4FA00DF2942 /* ViewController.swift in Sources */,
+				F816E7022D0AF711006F1FDD /* SendCell.swift in Sources */,
+				F8020CDE2D0AADEF001B20AB /* UiView+Extension.swift in Sources */,
+				F816E6FB2D0AF2C5006F1FDD /* KeyboardHandler.swift in Sources */,
+				F83163902D0AA82200DF2942 /* HomeTabBar.swift in Sources */,
+				F831635B2D0AA4FA00DF2942 /* AppDelegate.swift in Sources */,
+				F88046CF2D0AFB5C00B8EE33 /* ReceiveCell.swift in Sources */,
+				F8D1AEED2D0AE55B00651F93 /* OnlineCell.swift in Sources */,
+				F831635D2D0AA4FA00DF2942 /* SceneDelegate.swift in Sources */,
+				F8D1AEE82D0ADEBE00651F93 /* FavouriteAdvisorCell.swift in Sources */,
+				F8133E052D0B0F6300935346 /* AdvisorStruct.swift in Sources */,
+				F8020CDA2D0AAB7D001B20AB /* HomeViewController.swift in Sources */,
+				F8133E032D0AFDD800935346 /* MessageStruct.swift in Sources */,
+				F877CFEC2D0ACFA600056B91 /* AdvisiorCell.swift in Sources */,
+				F8020CDC2D0AABB6001B20AB /* MessageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F831636C2D0AA4FB00DF2942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83163752D0AA4FB00DF2942 /* Seraphic_DesignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83163762D0AA4FB00DF2942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F831637F2D0AA4FB00DF2942 /* Seraphic_DesignUITests.swift in Sources */,
+				F83163812D0AA4FB00DF2942 /* Seraphic_DesignUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F83163722D0AA4FB00DF2942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F83163562D0AA4FA00DF2942 /* Seraphic Design */;
+			targetProxy = F83163712D0AA4FB00DF2942 /* PBXContainerItemProxy */;
+		};
+		F831637C2D0AA4FB00DF2942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F83163562D0AA4FA00DF2942 /* Seraphic Design */;
+			targetProxy = F831637B2D0AA4FB00DF2942 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F83163602D0AA4FA00DF2942 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F83163612D0AA4FA00DF2942 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F83163682D0AA4FB00DF2942 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F83163692D0AA4FB00DF2942 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F83163822D0AA4FB00DF2942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F83163832D0AA4FB00DF2942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F83163852D0AA4FB00DF2942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8GVMA9VD7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Seraphic Design/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Seraphic.Seraphic-Design";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F83163862D0AA4FB00DF2942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8GVMA9VD7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Seraphic Design/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Seraphic.Seraphic-Design";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F83163882D0AA4FB00DF2942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8GVMA9VD7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Seraphic.Seraphic-DesignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seraphic Design.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Seraphic Design";
+			};
+			name = Debug;
+		};
+		F83163892D0AA4FB00DF2942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8GVMA9VD7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Seraphic.Seraphic-DesignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seraphic Design.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Seraphic Design";
+			};
+			name = Release;
+		};
+		F831638B2D0AA4FB00DF2942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8GVMA9VD7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Seraphic.Seraphic-DesignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Seraphic Design";
+			};
+			name = Debug;
+		};
+		F831638C2D0AA4FB00DF2942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8GVMA9VD7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Seraphic.Seraphic-DesignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Seraphic Design";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F83163522D0AA4FA00DF2942 /* Build configuration list for PBXProject "Seraphic Design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83163822D0AA4FB00DF2942 /* Debug */,
+				F83163832D0AA4FB00DF2942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83163842D0AA4FB00DF2942 /* Build configuration list for PBXNativeTarget "Seraphic Design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83163852D0AA4FB00DF2942 /* Debug */,
+				F83163862D0AA4FB00DF2942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83163872D0AA4FB00DF2942 /* Build configuration list for PBXNativeTarget "Seraphic DesignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83163882D0AA4FB00DF2942 /* Debug */,
+				F83163892D0AA4FB00DF2942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F831638A2D0AA4FB00DF2942 /* Build configuration list for PBXNativeTarget "Seraphic DesignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F831638B2D0AA4FB00DF2942 /* Debug */,
+				F831638C2D0AA4FB00DF2942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F83163632D0AA4FA00DF2942 /* Seraphic_Design.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F83163642D0AA4FA00DF2942 /* Seraphic_Design.xcdatamodel */,
+			);
+			currentVersion = F83163642D0AA4FA00DF2942 /* Seraphic_Design.xcdatamodel */;
+			path = Seraphic_Design.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F831634F2D0AA4FA00DF2942 /* Project object */;
+}
